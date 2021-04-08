@@ -1,0 +1,22 @@
+.map{
+    width: 70%;
+    margin: auto;
+}
+
+.map path{
+    fill: rgb(133, 213, 250);
+    stroke: black;
+    stroke-width: 1px;
+    transition: fill 0.3s;
+}
+
+.map path:hover{
+    fill: rgb(4, 4, 112);
+    transition: 0.4s;
+}
+
+.card{
+    right: 0;
+    top: 13%;
+    position: fixed;
+}
